@@ -1,0 +1,87 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+#root{
+  position: relative;
+  min-height: 100vh;
+}
+
+.ContentWrapper{
+  width: 74%;
+  height: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.mt40px{
+  margin-top: 40px;
+}
+
+.mt20px{
+  margin-top: 20px;
+}
+
+.ml10px{
+  margin-left: 10px;
+}
+
+.mr10px{
+  margin-right: 10px;
+}
+
+.mb10px{
+  margin-bottom: 10px;
+}
+
+.p10px{
+  padding: 10px;
+}
+.displayFlex{
+  display: flex;
+}
+
+
+.flexAlignCenter{
+  align-items: center;
+}
+
+.justifyContentCenter{
+  justify-content: center;
+}
+/* .tdDivContainer div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
+
+.flexAlignEnd{
+align-items: flex-end;
+}
+
+.columnFlexDirection{
+  flex-direction: column;
+}
+
+.spaceBetweenJustifyContent{
+  justify-content: space-between;
+}
+
+.positionRelative{
+  position: relative;
+}
+
+.PopUpContainer{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  background-color: black;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}

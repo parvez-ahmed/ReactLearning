@@ -1,0 +1,68 @@
+.PriceContainer{
+    width: 27%;
+    background-color: white;
+}
+
+.PricePopupHeaderContainer img{
+    width: 137px;
+    height: 137px;
+}
+
+
+.PricePopContent h1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #2B416C;
+}
+
+.priceText{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #7788A3;
+}
+
+.priceAmount{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+color: #556789;
+}
+
+.PricePopButtonContainer button{
+    padding: 14px 22px;
+    background-color: white;
+    border: 1px solid black;
+    font-family: Roboto;
+    font-style: normal; 
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #181B34;
+}
+
+.PricePopupHeaderContainer span:nth-child(1){
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #2B416C;
+}
+
+.PricePopupHeaderContainer span:nth-child(2){
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #9CA2B7;
+}

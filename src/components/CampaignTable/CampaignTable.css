@@ -1,0 +1,80 @@
+.table{
+    width: 100%;
+    border-spacing: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    overflow-x: scroll;
+}
+
+.tableHead{
+    background-color: #F1F1F4;
+    height: 48px;
+    border-collapse: collapse;
+    text-align: left;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #556789;
+}
+
+td, th{
+    padding-left: 20px;
+}
+td{
+    color: #2B416C;
+    cursor: pointer;
+}
+
+.tableData{
+    height: 88px;
+}
+
+.tdCampaignImage{
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+
+.tdPriceImage{
+    width: 24px;
+    height: 24px;
+}
+
+#actionTdImageCSV{
+    width: 18px;
+    height: 24px;
+}
+
+#actionTdImageReport{
+    width: 21px;
+    height: 14px;
+}
+
+#actionTdImageCalendar{
+    width: 20px;
+    height: 20px;
+}
+
+table td:nth-child(1),table td:nth-child(2),table td:nth-child(3){
+ width: 20%;
+}
+
+.timeDiff{
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 4px;
+}
+/* table td:nth-child(2){
+    width: 25%;
+} */
+
+.calendar{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}

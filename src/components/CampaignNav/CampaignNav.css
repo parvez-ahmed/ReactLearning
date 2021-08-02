@@ -1,0 +1,20 @@
+.NavContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.NavItem{
+    padding: 0 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #556789;
+    cursor: pointer;
+}
+
+.NavItemSelect{
+    border-bottom: 4px solid #83A515;
+    color: #83A515;
+}
